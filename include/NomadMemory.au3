@@ -1,4 +1,4 @@
-#include-once
+﻿#include-once
 #region _Memory
 ;==================================================================================
 ; AutoIt Version:	3.1.127 (beta)

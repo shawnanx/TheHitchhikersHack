@@ -1,4 +1,4 @@
-;;;;;;;;;-LocalPlayerSpellsOnCooldown / SpellCooldownList-;;;;;;;;;;
+﻿;;;;;;;;;-LocalPlayerSpellsOnCooldown / SpellCooldownList-;;;;;;;;;;
 Global Const $BASECD = 0x00D3F5AC
 ;;;;;;;;;-OFFSET CAMERA-;;;;;;;;;;
 Global Const $CAM_CAMERAOFFSA = 0x7E20

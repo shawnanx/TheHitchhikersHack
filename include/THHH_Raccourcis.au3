@@ -1,4 +1,4 @@
-
+ï»¿
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;; RACCOURCIS - SERVEUR OFFICIELS ;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -26,103 +26,103 @@ EndFunc
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 func PriveSCsettings()
-$EjectInput=0   ;Variable qui sert a faire dégager les inputs qui ne sont pas listés (ceux qui continnent les vitesses, etc et qui n'ont pas de raccourcis)
+$EjectInput=0   ;Variable qui sert a faire dÃ©gager les inputs qui ne sont pas listÃ©s (ceux qui continnent les vitesses, etc et qui n'ont pas de raccourcis)
 Global $SCIniEmpl="Raccourcis - Prive"
-If ControlGetFocus("Raccourcis Privé") = "Edit1" Then
+If ControlGetFocus("Raccourcis PrivÃ©") = "Edit1" Then
 refreshSCtext("Flymod", $PriveSettingInputFlymod)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit2" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit2" Then
 refreshSCtext("Speedglobale", $PriveSettingInputSpeedglobale)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit3" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit3" Then
 refreshSCtext("Speed", $PriveSettingInputSpeed)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit4" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit4" Then
 refreshSCtext("Wallclimb", $PriveSettingInputWallclimb)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit5" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit5" Then
 refreshSCtext("Supersaut", $PriveSettingInputSupersaut)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit6" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit6" Then
 refreshSCtext("Debloperso", $PriveSettingInputDebloperso)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit7" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit7" Then
 refreshSCtext("Clicktp", $PriveSettingInputClicktp)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit8" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit8" Then
 refreshSCtext("Gocorps", $PriveSettingInputGocorps)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit9" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit9" Then
 refreshSCtext("Stopfall", $PriveSettingInputStopfall)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit10" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit10" Then
 refreshSCtext("Tpcibledos", $PriveSettingInputTpcibledos)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit11" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit11" Then
 refreshSCtext("Tpcibleundermap", $PriveSettingInputTpcibleundermap)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit12" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit12" Then
 refreshSCtext("FreezeZ", $PriveSettingInputFreezeZ)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit13" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit13" Then
 refreshSCtext("SpeedN", $PriveSettingInputSpeedN)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit14" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit14" Then
 refreshSCtext("Speed100", $PriveSettingInputSpeed100)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit15" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit15" Then
 refreshSCtext("Speedcustom", $PriveSettingInputSpeedcustom)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit17" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit17" Then
 refreshSCtext("SpeedP", $PriveSettingInputSpeedP)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit18" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit18" Then
 refreshSCtext("SpeedM", $PriveSettingInputSpeedM)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit20" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit20" Then
 refreshSCtext("SpeedFlyN", $PriveSettingInputSpeedFlyN)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit21" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit21" Then
 refreshSCtext("SpeedFly280", $PriveSettingInputSpeedFly280)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit22" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit22" Then
 refreshSCtext("SpeedFlycustom", $PriveSettingInputSpeedFlycustom)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit24" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit24" Then
 refreshSCtext("SpeedFlyP", $PriveSettingInputSpeedFlyP)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit25" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit25" Then
 refreshSCtext("SpeedFlyM", $PriveSettingInputSpeedFlyM)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit27" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit27" Then
 refreshSCtext("SupersautP", $PriveSettingInputSupersautP)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit28" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit28" Then
 refreshSCtext("SupersautM", $PriveSettingInputSupersautM)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit30" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit30" Then
 refreshSCtext("TimeSpeedP", $PriveSettingInputTimeSpeedP)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit31" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit31" Then
 refreshSCtext("TimeSpeedM", $PriveSettingInputTimeSpeedM)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit33" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit33" Then
 refreshSCtext("TailleP", $PriveSettingInputTailleP)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit34" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit34" Then
 refreshSCtext("TailleM", $PriveSettingInputTailleM)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit36" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit36" Then
 refreshSCtext("FlagA2", $PriveSettingInputGouletFlagA2)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit37" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit37" Then
 refreshSCtext("RegenA2", $PriveSettingInputGouletRegenA2)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit38" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit38" Then
 refreshSCtext("BersekerA2", $PriveSettingInputGouletBersekerA2)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit39" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit39" Then
 refreshSCtext("SprintA2", $PriveSettingInputGouletSprintA2)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit40" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit40" Then
 refreshSCtext("FlagH2", $PriveSettingInputGouletFlagH2)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit41" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit41" Then
 refreshSCtext("RegenH2", $PriveSettingInputGouletRegenH2)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit42" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit42" Then
 refreshSCtext("BersekerH2", $PriveSettingInputGouletBersekerH2)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit43" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit43" Then
 refreshSCtext("SprintH2", $PriveSettingInputGouletSprintH2)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit44" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit44" Then
 refreshSCtext("Ecurie", $PriveSettingInputArathiEcurie)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit45" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit45" Then
 refreshSCtext("Ferme", $PriveSettingInputArathiFerme)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit46" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit46" Then
 refreshSCtext("Mine", $PriveSettingInputArathiMine)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit47" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit47" Then
 refreshSCtext("Forge", $PriveSettingInputArathiForge)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit48" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit48" Then
 refreshSCtext("Scierie", $PriveSettingInputArathiScierie)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit49" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit49" Then
 refreshSCtext("OeilDrapeau", $PriveSettingInputOeilDrapeau)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit50" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit50" Then
 refreshSCtext("TourMages", $PriveSettingInputOeilTourMages)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit51" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit51" Then
 refreshSCtext("RuinesDraenei", $PriveSettingInputOeilRuinesDraenei)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit52" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit52" Then
 refreshSCtext("TourElfes", $PriveSettingInputOeilTourElfes)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit53" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit53" Then
 refreshSCtext("RuinesSaccageur", $PriveSettingInputOeilRuinesSaccageur)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit54" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit54" Then
 refreshSCtext("A2", $PriveSettingInputAlteracA2)
-ElseIf ControlGetFocus("Raccourcis Privé") = "Edit55" Then
+ElseIf ControlGetFocus("Raccourcis PrivÃ©") = "Edit55" Then
 refreshSCtext("H2", $PriveSettingInputAlteracH2)
 Else
 $EjectInput=1
@@ -141,7 +141,7 @@ EndFunc
 
 func writekeypress()
 If _IsPressed(10, $dll) Then ; Si on appuis sur SHIFT, on lance la detection de la 2eme touche avec GetKeyPressed()
-							 ; et on enlève les touches qui ne supportent pas les combinaisons
+							 ; et on enlÃ¨ve les touches qui ne supportent pas les combinaisons
 getkeypressed()
 	If $Keypressed = "+" or $Keypressed="F12" or $Keypressed="F11" or $Keypressed="F10" or $Keypressed="F9" or $Keypressed="F8" or $Keypressed="F7" or $Keypressed="F6" or $Keypressed="F5" or $Keypressed="F4" or $Keypressed="F3" or $Keypressed="F2" or $Keypressed="F1" Then
 	ElseIf $Keypressed = "" Then

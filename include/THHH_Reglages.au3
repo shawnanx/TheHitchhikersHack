@@ -1,4 +1,4 @@
-
+﻿
 
 Func reglageslancement()
 If IniRead($Setting,"Reglages","pspeed","Erreur") = 1 Then
